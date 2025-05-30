@@ -31,6 +31,35 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900; /* Make it bolder */
 }
 
+/* Header Styles */
+.bg-header {
+    background-image: url('../images/People-Standing-Around.jpg'); /* Adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bg-header .container {
+    position: relative;
+    z-index: 2;
+}
+.bg-header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4); /* Optional: dark overlay for text readability */
+    z-index: 1;
+}
+.bg-header h1, .bg-header p {
+    color: #fff;
+}
+
+
+
 /* Footer Styles */
 body {
     display: flex;
