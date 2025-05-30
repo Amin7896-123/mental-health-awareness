@@ -30,3 +30,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1rem; /* Increase text size */
     font-weight: 900; /* Make it bolder */
 }
+
+/* Footer Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1 0 auto;
+}
