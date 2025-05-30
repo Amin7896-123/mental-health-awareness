@@ -24,5 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
     font-size: 2rem;    /* Increase text size */
     font-weight: 700;   /* Make it bolder */
-    letter-spacing: 2px; /* Optional: add spacing between letters */
+    letter-spacing: 1px; /* Add spacing between letters */
+}
+.nav-item {
+    font-size: 1rem; /* Increase text size */
+    font-weight: 900; /* Make it bolder */
 }
