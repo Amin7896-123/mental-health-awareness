@@ -11,9 +11,18 @@
 
 /* For Body Use LATO Font */
 /* For Headings Use MONTSERRAT Font */
+
+/* General Styles */
 body{
     font-family: lato;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: montserrat;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 2rem;    /* Increase text size */
+    font-weight: 700;   /* Make it bolder */
+    letter-spacing: 2px; /* Optional: add spacing between letters */
 }
